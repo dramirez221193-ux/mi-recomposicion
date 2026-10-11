@@ -1,7 +1,7 @@
 {
-  "name": "Mi Recomposición — 30 días",
+  "name": "Mi Recomposición — Seguimiento mensual",
   "short_name": "Mi Recomposición",
-  "description": "Menú, rutina, compras y seguimiento personal sin conexión",
+  "description": "Planes mensuales, mediciones, menú, gimnasio e historial sin conexión",
   "lang": "es-MX",
   "start_url": "./index.html",
   "scope": "./",
