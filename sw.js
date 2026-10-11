@@ -1,5 +1,5 @@
 /* Mi Recomposición: actualización online y funcionamiento offline. */
-const CACHE = 'mi-recomposicion-v4-1';
+const CACHE = 'mi-recomposicion-v4-2';
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './icon-180.png', './icon-192.png', './icon-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting()));
